@@ -1,3 +1,5 @@
+package pre;
+
 public class Rectangle {
     private int xPosition;
     private int yPosition;
