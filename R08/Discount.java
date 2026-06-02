@@ -25,10 +25,12 @@ public class Discount {
         System.out.printf("33パーセント引きは%d円です\n",discount.calc(33));
         System.out.printf("65パーセント引きは%d円です\n",discount.calc(65));
 
+        System.out.println();
+
         //Discountオブジェクトの再生成
         discount = new Discount(32000);
         System.out.print("32000円の商品\n");
-        System.out.printf("33パーセント引きは%d円です\n",discount.calc(12));
-        System.out.printf("65パーセント引きは%d円です\n",discount.calc(28));
+        System.out.printf("12パーセント引きは%d円です\n",discount.calc(12));
+        System.out.printf("28パーセント引きは%d円です\n",discount.calc(28));
     }
 }
