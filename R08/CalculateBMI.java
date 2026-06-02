@@ -4,7 +4,7 @@ public class CalculateBMI {
     private int height;//身長
     private int weight;//体重
     private double bmi;//BMI
-    private double properWeight;//適性体重
+    private double properWeight;//適正体重
 
     /**
      * コンストラクター
@@ -17,7 +17,7 @@ public class CalculateBMI {
     }
 
     /**
-     * 身長、体重を元にBMI、適性体重を計算
+     * 身長、体重を元にBMI、適正体重を計算
      */
     public void calculate() {
         double heightM = height / 100.0;
@@ -30,7 +30,7 @@ public class CalculateBMI {
      */
     public void showResult() {
         System.out.printf("あなたのBMI値は %4.1fです \n",bmi);
-        System.out.printf("あなたの適性体重は %4.1fkgです \n",properWeight);
+        System.out.printf("あなたの適正体重は %4.1fkgです \n",properWeight);
     }
 
     public static void main(String[] args) {
