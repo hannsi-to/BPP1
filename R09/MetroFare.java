@@ -17,13 +17,13 @@ public class MetroFare {
 	(2) distanceに応じてsectionフィールドに適切な値を代入する（if文で場合分する）
 	*/
         this.age = age;
-        if(distance < 3){
+        if(distance <= 3){
             section = 1;
-        }else if(distance < 7){
+        }else if(distance <= 7){
             section = 2;
-        }else if(distance < 13){
+        }else if(distance <= 13){
             section = 3;
-        }else if(distance < 19){
+        }else if(distance <= 19){
             section = 4;
         }else {
             section = 5;
