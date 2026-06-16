@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BPP1.iml" filepath="$PROJECT_DIR$/BPP1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/R04/R04.iml" filepath="$PROJECT_DIR$/R04/R04.iml" />
     </modules>
   </component>
 </project>
