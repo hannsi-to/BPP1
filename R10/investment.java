@@ -40,7 +40,7 @@ public class investment {
 	@return n年後の資産額
 	*/
 	public int calcValue(int n) {
-		double value = this.initValue; // 戻り値を入れる変数，便宜的に0で初期化
+		int value = this.initValue; // 戻り値を入れる変数，便宜的に0で初期化
 		
 		//【手順3-1】 ループカウンターiを0からnまで繰り返す（for文）
 		//【手順3-2】 ループの中で複利計算を実行する
@@ -48,7 +48,7 @@ public class investment {
 
 		/** ここにコードを書く **/
 		for (int i = 0; i < n; i++) {
-			value *= (1 + this.interest / 100.0);
+			value = (int)(value * (1 + this.interest / 100.0));
 		}
 
 		return (int)value; /* 結果を返す */
